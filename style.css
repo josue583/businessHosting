@@ -1,0 +1,181 @@
+body{
+    background-color: antiquewhite;
+}
+.hosting{
+    background-color: cadetblue;
+    margin: 400px;
+    display: block;
+    /* gap: 2rem; */
+    position: relative;;
+
+}
+.first{
+background-color: white;
+width: 100%;
+height: 200px;
+position: relative;
+}
+.second{
+    background-color: blue;
+    width: 100%;
+    height:300px ;
+    /* position: absolute; */
+    /* top: 50px; */
+
+}
+.third{
+    background-color: aqua;
+    width: 100%;
+    height: 300px;
+
+}
+.fourth{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+
+}
+.first>img{
+    width: 150px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+}
+.first>h1{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+/* .first>p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    margin-left: 20px;
+    float: left;
+    width:100px ;
+    border-radius: 20px;
+
+} */
+.botton{
+    background-color: grey;
+    width: 100px;
+    height: 20px;
+    border: solid gray;
+    border-radius: 20px;
+    position: absolute;
+    left: 180px;
+    
+    
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0%;
+    margin: 0%;
+}
+.second>h2{
+    text-align: center;
+
+}
+.fourth>img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    top: 95px;
+    z-index: 1;
+}
+.fourth>.content{
+    background-color: gainsboro;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 40px;
+    top: 40px;
+    z-index: 1;
+}
+.fourth>.blue-circle{
+    background-color: darkgray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    
+}
+.fourth>.white-circle{
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    left: 80px;
+    bottom: 230px;
+}
+.fourth>.content>p{
+    text-align: center;
+    font-size: 15px;
+    
+}
+.white-circle>p{
+    text-align: center;
+    color: brown;
+    font-size:3px ;
+}
+.fourth>.last-circle{
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    border: 5px solid gray;
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+}
+.second{
+    display: flex;
+    gap: 1rem;
+}
+.second>.col1{
+    background-color:blueviolet;
+    width: 300px;
+    height: 100%;
+    
+
+}
+.second>.col2{
+    background-color: blueviolet;
+    width: 300px;
+    height: 100%;
+    
+
+}
+.host-title{
+    background-color: azure;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.col1{
+    display: block;
+
+}
+.section1{
+    background-color: chartreuse;
+    width: 100%;
+    height: 100px;
+    
+}
+.section2{
+    background-color: tomato;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+.section3{
+    background-color: azure;
+    width: 100%;
+    height: 90px;
+    
+}
